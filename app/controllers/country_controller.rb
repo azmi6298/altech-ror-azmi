@@ -1,5 +1,3 @@
-
-
 class CountryController < ApplicationController
   def index
     countries = helpers.fetch_country
